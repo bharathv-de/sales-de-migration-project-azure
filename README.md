@@ -4,7 +4,7 @@
 This project focuses on building a comprehensive solution for migrating data from an on-premises SQL Server database to the Azure cloud. The solution leverages multiple Azure services, including Azure Data Factory, Azure Data Lake, Azure Databricks, and Microsoft Power BI, to enable efficient data migration, transformation, and visualization. The goal is to not only migrate data seamlessly but also to provide business users with insights through an interactive dashboard.
 
 ## Architecture
-![Project Architecture](Architecture Diagram.PNG)
+![Project Architecture](Architecture_Diagram.PNG)
 
 ## PowerBI Report
 ![Sales Dashboard](PowerBI_Sales_Dashboard.PNG)

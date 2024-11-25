@@ -31,6 +31,7 @@ Automate the data ingestion process to ensure ongoing, seamless data migration a
 ## Dataset Used ( Pizza Sales ) 
 •	Source Dataset:
 The dataset originates from an on-premises SQL Server database containing tables related to pizza sales, including information about orders, customers, products, and sales.
+
 •	Target Dataset:
 Once the data is ingested to Azure Data Lake and transformed in Azure Databricks, it is stored in Azure Synapse Analytics for reporting and visualization purposes.
 
@@ -39,6 +40,7 @@ Here is the dataset used - https://github.com/bharathv-de/sales-de-migration-pro
 ## Challenges: 
 •	Optimizing Data Pipeline Performance:
 Migrating large amounts of data from the on-prem SQL Server to Azure Data Lake using Azure Data Factory required me to optimize the data pipelines for better performance. I had to address issues like network latency, manage parallel data processing, and control costs, all while ensuring the data transfer was smooth and efficient.
+
 •	Data Transformation and Cleansing in Azure Databricks:
 After migrating the data, transforming and cleaning it in Azure Databricks posed challenges due to inconsistencies and missing values. Writing efficient Spark-based transformations and handling schema changes were crucial to ensure the data was clean, accurate, and ready for analysis.
 

@@ -21,7 +21,7 @@ Use Microsoft Power BI integrated with Azure Synapse Analytics to build a dynami
 5.	Automation:
 Automate the data ingestion process to ensure ongoing, seamless data migration and updates from the on-prem SQL server to the Azure platform.
 
-## Services and Tools Used:
+## Services and Tools Used
 1.	Azure Data Factory (ADF): Used for orchestrating data migration pipelines from on-prem SQL Server to Azure Data Lake.
 2.	Azure Data Lake: Used for storing raw and processed data in a scalable and secure cloud environment.
 3.	Azure Databricks: Used for data transformation, including cleaning, aggregating, and structuring the data into its final form for analysis.
